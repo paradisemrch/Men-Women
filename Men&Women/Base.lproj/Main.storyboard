@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="KcT-jv-UMr">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14295.6" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="JsG-xk-utK">
     <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -321,7 +321,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1O3-bt-duT" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5581.6000000000004" y="1437.9310344827586"/>
+            <point key="canvasLocation" x="6524" y="1437.9310344827586"/>
         </scene>
         <!--Item-->
         <scene sceneID="7vy-pD-t1G">
@@ -343,7 +343,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="fvR-ay-GwV" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4050.4000000000001" y="1437.9310344827586"/>
+            <point key="canvasLocation" x="4992.8000000000002" y="1437.9310344827586"/>
         </scene>
         <!--Item-->
         <scene sceneID="ns0-24-QEp">
@@ -365,7 +365,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="FIV-fD-sXw" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3232.8000000000002" y="1437.9310344827586"/>
+            <point key="canvasLocation" x="4175.1999999999998" y="1437.9310344827586"/>
         </scene>
         <!--Item-->
         <scene sceneID="bIQ-z2-9ug">
@@ -387,7 +387,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cyN-Lw-CF7" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4789.6000000000004" y="1437.9310344827586"/>
+            <point key="canvasLocation" x="5732" y="1437.9310344827586"/>
         </scene>
         <!--Item-->
         <scene sceneID="R2G-gq-Tz6">
@@ -702,7 +702,7 @@
             </objects>
             <point key="canvasLocation" x="1429.5999999999999" y="3582.2660098522169"/>
         </scene>
-        <!--View Controller-->
+        <!--Main-->
         <scene sceneID="qtL-ZB-ZE4">
             <objects>
                 <viewController id="e5m-Il-c2x" customClass="ViewController" customModule="Men_Women" customModuleProvider="target" sceneMemberID="viewController">
@@ -748,7 +748,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="入口" translatesAutoresizingMaskIntoConstraints="NO" id="Hf4-76-7Oq">
-                                <rect key="frame" x="-46" y="331" width="421" height="568"/>
+                                <rect key="frame" x="-22" y="331" width="397" height="568"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="UdZ-pk-fYE">
@@ -779,16 +779,17 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="EOz-xd-nw9"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Qdq-ly-rKl"/>
+                    <navigationItem key="navigationItem" title="Main" id="Qdq-ly-rKl" colorLabel="IBBuiltInLabel-Blue"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="swb-93-Kvz" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1383.2" y="1437.9310344827586"/>
+            <point key="canvasLocation" x="2325.5999999999999" y="1437.9310344827586"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Main-->
         <scene sceneID="qV4-Fj-vqS">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="KcT-jv-UMr" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Main" id="jpV-bY-UKO"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="aJB-yE-Cat">
                         <rect key="frame" x="0.0" y="44" width="375" height="44"/>
@@ -801,13 +802,61 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CXK-PS-IPT" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-44" y="1438"/>
+            <point key="canvasLocation" x="898.39999999999998" y="1437.9310344827586"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ES2-yS-696">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="JsG-xk-utK" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="vjZ-d7-vSy">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="KcT-jv-UMr" kind="relationship" relationship="viewControllers" id="gRN-ef-csA"/>
+                        <segue destination="TPB-d3-ull" kind="relationship" relationship="viewControllers" id="F9O-eI-XfG"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8Dv-Ot-QOF" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-44" y="1437.9310344827586"/>
+        </scene>
+        <!--愛的神廟-->
+        <scene sceneID="0Fh-v3-XLH">
+            <objects>
+                <viewController id="TPB-d3-ull" customClass="ViewController" customModule="Men_Women" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" autoresizesSubviews="NO" contentMode="scaleToFill" id="FC7-QH-2Pt">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mask" translatesAutoresizingMaskIntoConstraints="NO" id="juH-Au-8Ch">
+                                <rect key="frame" x="51" y="216" width="271" height="347"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="coming soon ..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kWQ-VW-xTG">
+                                <rect key="frame" x="127" y="586" width="117" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="zeT-3Z-avv"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="愛的神廟" id="LnA-a5-ASv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XVR-bG-nZP" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="128.80000000000001" y="2259.6059113300494"/>
         </scene>
     </scenes>
     <resources>
         <image name="heart" width="30" height="30"/>
         <image name="lock-7" width="30" height="30"/>
         <image name="man" width="554" height="562"/>
+        <image name="mask" width="776" height="1104"/>
         <image name="woman" width="548" height="564"/>
         <image name="不夠幽默" width="710" height="776"/>
         <image name="不孝順" width="746" height="812"/>
